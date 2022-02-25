@@ -1,0 +1,49 @@
+/**
+* common
+*/
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+body{
+  margin-top: 100px;
+}
+
+.title {
+  font-size: 42px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  background-image: url(../img/rail.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  font-size: x-large;
+  color: crimson;
+}
+
+.replay {
+  display: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  color: lightsalmon;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  cursor: pointer;
+}
