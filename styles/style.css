@@ -34,6 +34,8 @@ body {
 .message {
   text-align: center;
   font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   color: crimson;
 }
 
