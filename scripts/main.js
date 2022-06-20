@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {});
             // 全てのカードを一致させれば、ゲームクリア
             if (++countOfHit >= (Images.length / 2)) {
             // メッセージ表示
-            message.style.fontSize = "60px";
+            message.style.fontSize = "40px";
             message.textContent = `COMPLETED!`;
             replay.style.display = "block";
             message.textContent = message.textContent + `  ${countOfHit} HIT! ${countOfMiss} MISS!`;
